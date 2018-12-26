@@ -1,6 +1,22 @@
-*.swp
-*.swo
-*~
-.DS_Store
-/assets/
-/node_modules/
+# NPM
+node_modules
+.npmrc
+npm-debug.log
+
+# IntelliJ
+.idea
+
+# CodeKit
+config.codekit
+sass/.sass-cache
+.codekit3
+
+# Brackets IDE
+.brackets.json
+
+# Bower Related
+bower_components
+
+# Security stuff
+veil.json
+certs
