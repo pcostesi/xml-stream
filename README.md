@@ -1,10 +1,10 @@
 # XmlStreamLite
 
-XmlStreamLite is a Node.js XML stream parser and editor, based on XmlStream which is based on
+XmlStreamLite is a Node.js XML stream parser and editor, based on [xml-stream](https://github.com/assistunion/xml-stream) which is based on
 [node-expat](https://github.com/astro/node-expat) (libexpat SAX-like parser
 binding).
 
-After having issues installing xml-stream due to binaries, I replaced the required `iconv` with `iconv-lite`
+`xml-stream` seems to no longer be maintained, so after having issues installing xml-stream due to binaries, I replaced the required `iconv` with `iconv-lite`
 
     $ npm install xml-stream-lite
 
